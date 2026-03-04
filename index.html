@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Colorful Background Page</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    /* Colorful gradient background */
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.container {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 22px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Welcome</h1>
+    <p>This page has a colorful animated background!</p>
+</div>
+
+</body>
+</html>
